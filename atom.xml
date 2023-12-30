@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://summercat7.github.io/"/>
-  <updated>2023-12-30T03:10:20.321Z</updated>
+  <updated>2023-12-30T03:30:27.416Z</updated>
   <id>https://summercat7.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>你好世界</title>
+    <link href="https://summercat7.github.io/2023/12/30/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/"/>
+    <id>https://summercat7.github.io/2023/12/30/你好世界/</id>
+    <published>2023-12-30T03:28:22.000Z</published>
+    <updated>2023-12-30T03:30:27.416Z</updated>
+    
+    <content type="html"><![CDATA[<p>test</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;test&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="test" scheme="https://summercat7.github.io/categories/test/"/>
+    
+    
+      <category term="分类" scheme="https://summercat7.github.io/tags/%E5%88%86%E7%B1%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>123</title>
