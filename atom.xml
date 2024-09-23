@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://summercat7.github.io/"/>
-  <updated>2023-12-30T03:52:08.430Z</updated>
+  <updated>2024-07-12T12:52:27.028Z</updated>
   <id>https://summercat7.github.io/</id>
   
   <author>
@@ -17,13 +17,28 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="https://summercat7.github.io/2023/12/30/test/"/>
-    <id>https://summercat7.github.io/2023/12/30/test/</id>
-    <published>2023-12-30T03:51:40.000Z</published>
-    <updated>2023-12-30T03:52:08.430Z</updated>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/07/12/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/chapter07/test%20copy/"/>
+    <id>https://summercat7.github.io/2024/07/12/前端开发技术/chapter07/test copy/</id>
+    <published>2024-07-12T12:35:03.662Z</published>
+    <updated>2024-07-12T12:52:27.028Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title></head><body>    <div>        <button>显示/隐藏</button>        <img src="/.io//pic.png" id="img">    </div>    <script>        var img = document.querySelector('img');        var btn = document.querySelector('button')        console.log(btn);        var flag = 0;        btn.addEventListener('click', function () {            if (flag == 0) {                //img.style.display == "block"                img.style.display = 'none';                flag = 1;            }            else {                img.style.display = 'block';                flag = 0;            }        }        )            </script></body></html>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+
+    &lt;meta name=&quot;viewport&quot;
+      
     
     </summary>
     
@@ -31,27 +46,502 @@
   </entry>
   
   <entry>
-    <title>你好世界</title>
-    <link href="https://summercat7.github.io/2023/12/30/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/"/>
-    <id>https://summercat7.github.io/2023/12/30/你好世界/</id>
-    <published>2023-12-30T03:28:22.000Z</published>
-    <updated>2023-12-30T03:51:22.686Z</updated>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/07/12/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/chapter07/sum/"/>
+    <id>https://summercat7.github.io/2024/07/12/前端开发技术/chapter07/sum/</id>
+    <published>2024-07-12T08:46:22.187Z</published>
+    <updated>2024-07-12T08:56:50.841Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="test"><a href="#test" class="headerlink" title="test"></a>test</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">read -n 1 -p "input git type(1:push or 2:pull) &gt; " type &amp;&amp; printf "\n"</span><br><span class="line">if [ $type == '1' ]</span><br><span class="line">then</span><br><span class="line">hexo clean &amp;&amp; git add --all &amp;&amp; git commit -m "1.0" &amp;&amp; git push -u origin master</span><br><span class="line">elif [ $type == '2' ]</span><br><span class="line">then</span><br><span class="line">hexo clean &amp;&amp; git pull origin master</span><br><span class="line">else</span><br><span class="line">echo 'input error'</span><br><span class="line">fi</span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title></head><body>    <script>        var jishu = oushu = 0;        for (var i = 1; i <= 100; i++) {            if (i % 2 == 0) {                oushu += i;            }        }        console.log('偶数和：' + oushu);        for (var j = 1; j <= 100; j++) {            if (j % 2 !==0) {                jishu += j;            }        }        console.log('奇数和：' + jishu);    </script></body></html>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;test&quot;&gt;&lt;a href=&quot;#test&quot; class=&quot;headerlink&quot; title=&quot;test&quot;&gt;&lt;/a&gt;test&lt;/h1&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pr
+        &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; co
       
     
     </summary>
     
-      <category term="test" scheme="https://summercat7.github.io/categories/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/07/12/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/chapter07/phtoo/"/>
+    <id>https://summercat7.github.io/2024/07/12/前端开发技术/chapter07/phtoo/</id>
+    <published>2024-07-12T08:10:12.949Z</published>
+    <updated>2024-07-12T08:12:30.450Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title></head><body>     <button id="btn">显示/隐藏</button>    <img id="pic" src="/.io//pic.png" alt></body><script>    window.onload　 = function () {  //1分        var pic = document.getElementById("pic");//1分        document.getElementById("btn").onclick　 = function () { //1分                      if (pic.style.display == "block") { //3分                pic.style.display = "none"//1分            } else {                pic.style.display = "block";//1分            }        }    }</script></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; co
+      
+    
+    </summary>
     
     
-      <category term="分类" scheme="https://summercat7.github.io/tags/%E5%88%86%E7%B1%BB/"/>
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/07/12/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/chapter07/pho/"/>
+    <id>https://summercat7.github.io/2024/07/12/前端开发技术/chapter07/pho/</id>
+    <published>2024-07-12T08:07:12.261Z</published>
+    <updated>2024-07-12T16:25:44.841Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title></head><body>    <button class="show">显示/隐藏</button>    <img src="/.io//pic.png" class="i1"></body><style>    .i1{        display:none;}</style><script>   function countDown(time) {var nowTime = +new Date();var lastTime = +new Date(time);times = (lastTime - nowTime) / 1000;var day = times / 60 / 60 / 24;var hour = times / 60 / 60 % 24;var fen = times / 60 % 60;var second = times % 60;day = day < 10 ? '0' +  day : day;hour = hour < 10 ? '0' +  hour : hour;fen = fen < 10 ? '0' +  fen : fen;second = second < 10 ? '0' +  second : second;return "距2024年8月1日还剩" + day + "天" + hour + "时" + fen + "分" + second + "秒";}console.log(countDown('2024-08-01 00:00:00'));</script></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+
+    &lt;meta name=&quot;viewport&quot;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/07/12/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/chapter07/ddl/"/>
+    <id>https://summercat7.github.io/2024/07/12/前端开发技术/chapter07/ddl/</id>
+    <published>2024-07-12T08:03:57.030Z</published>
+    <updated>2024-07-12T15:06:24.323Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title></head><body><script>var sum1=0;var sum2=0;    for(var i=0;i<=100;i++)     if(i%2==0){        sum1=sum1+i;}     if(i%2==1){        sum2=sum2+i;}console.log(sum1,sum2)</script></body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+
+    &lt;meta name=&quot;viewport&quot;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/07/11/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/chapter07/test/"/>
+    <id>https://summercat7.github.io/2024/07/11/前端开发技术/chapter07/test/</id>
+    <published>2024-07-11T14:50:32.188Z</published>
+    <updated>2024-07-12T16:13:45.732Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title></head><body>    <div>        <!--         <button>显示/隐藏</button>        <img src="pic.png" id='img'> -->    </div>    <script>function countDown(time){var nowTime=+new date;var inputTime=+new date(time)；var times=(inputTime-nowTime)/1000;var d=parseInt(times/60/60/24);d=d<10?d+'d':'d';var s=parseInt(times/60/60%24);s=s<10?s+'s':'s';var h=parseInt(times/60%60);h=h<10?h+'h':'h';var g=parseInt(times%60);g=g<10?g+'g':'g';}console.log('距离2024年8月1日还剩’+d+'天'+s+'时'+h+'分'+g+'秒');    </script></body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+
+    &lt;meta name=&quot;viewport&quot;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/07/11/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/chapter07/login/"/>
+    <id>https://summercat7.github.io/2024/07/11/前端开发技术/chapter07/login/</id>
+    <published>2024-07-11T14:22:36.819Z</published>
+    <updated>2024-07-11T14:25:27.393Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title></head><body>    <style>        div {            width: 300px;            height: 200px;            border: 1px solid #eee;            text-align: center;        }    </style>    <div>        <div>            <!-- （结构部分总分3分，符合要求酌情给分） -->            <p>用户名：<input id="user" type="text" placeholder="手机号/邮箱"></p>            <!-- //（共2分，其中结构设置正确得1分；placeholder属性设置正确得1分） -->            <p>密码：<input id="pwd" type="password"></p>            <button id="btn">登录</button>        </div>        <script>            var btn = document.getElementById('btn')              //   （1分）            btn.onclick = function () {                             //  （2分）                var user_value = document.getElementById('user').value   //（1分）                var pwd_value = document.getElementById('pwd').value //  （1分）                if ((user_value == '') || (pwd_value == '')) {            //  （2分）                    alert('内容不能为空')                          // （1分）                } else {                    location.assign('http://www.baidu.com')            // （1分）                }            }        </script></div></body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; co
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/07/11/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/chapter07/99/"/>
+    <id>https://summercat7.github.io/2024/07/11/前端开发技术/chapter07/99/</id>
+    <published>2024-07-11T14:07:25.820Z</published>
+    <updated>2024-07-11T14:15:40.623Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title></head><body>    <script>        var i, j;        var str = ''        for (i = 1; i < 10; i++) {            for (j = 1; j <= i; j++) {                str += +j + '*' + i + '=' + j * i+' '            }            str += '\n'        }        console.log(str);    </script></body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+
+    &lt;meta http-equiv=&quot;X-U
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/06/04/%E7%BD%91%E9%A1%B5%E7%89%B9%E6%95%88/2-%E4%BB%A3%E7%A0%81/9.1.4%20copy/"/>
+    <id>https://summercat7.github.io/2024/06/04/网页特效/2-代码/9.1.4 copy/</id>
+    <published>2024-06-04T08:21:15.814Z</published>
+    <updated>2024-06-04T08:28:24.491Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html>  <head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <title>Document</title>    <style>      /* 图片预览区域 */      .preview_img {        position: absolute;        border: 1px solid #ccc      }      /* 放大镜 */      .mask {        display: none;        width: 200px;        height: 200px;        background-color: red;        opacity: 0.5;        position: absolute;      }      /* 大图片外部盒子 */      .big {        display: none;        width: 500px;        height: 600px;        position: absolute;        left: 600px;        top: 0;        border: 2px solid #ccc;        overflow: hidden;      }      /* 大图片 */      .bigIMg {        position: absolute;      }    </style>  </head>  <body>    <!-- 图片预览区域 -->    <div class="preview_img">      <!-- 图片 -->      <img src="/2024/06/04/网页特效/2-代码/9.1/phone.png" alt>      <!-- 放大镜 -->      <div class="mask"></div>      <!-- 展示放大后图片效果 -->      <div class="big">        <img src="/2024/06/04/网页特效/2-代码/9.1/bigphone.png" alt class="bigIMg">      </div>    </div>    <script>          </script>  </body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;styl
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/06/03/%E7%BD%91%E9%A1%B5%E7%89%B9%E6%95%88/2-%E4%BB%A3%E7%A0%81/11-%E4%BB%BF%E6%B7%98%E5%AE%9D%E5%9B%BA%E5%AE%9A%E4%BE%A7%E8%BE%B9%E6%A0%8F%20copy/"/>
+    <id>https://summercat7.github.io/2024/06/03/网页特效/2-代码/11-仿淘宝固定侧边栏 copy/</id>
+    <published>2024-06-03T15:41:38.991Z</published>
+    <updated>2024-06-03T16:51:01.723Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <meta http-equiv="X-UA-Compatible" content="ie=edge">    <title>Document</title>    <style>        .slider-bar {            position: absolute;            left: 50%;            top: 330px;            margin-left: 600px;            width: 45px;            height: 130px;            background-color: pink;        }        .w {            width: 1200px;            margin: 10px auto;        }        .header {            height: 100px;            background-color: purple;        }        .banner {            height: 200px;            background-color: skyblue;        }        .main {            height: 1000px;            background-color: yellowgreen;        }        span {            display: none;            position: absolute;            bottom: 0;        }    </style></head><body>    <div class="slider-bar">        <span class="goBack">返回顶部</span>    </div>    <div class="header w">头部区域</div>    <div class="banner w">banner区域</div>    <div class="main w">主体部分</div>    <script>        // 1.获取元素        var sliderbar = document.querySelector('.slider-bar')        var banner = document.querySelector('.banner')        var header = document.querySelector('.header')        var goBack = document.querySelector('.goBack')                // 3.给【返回顶部】注册单击事件        goBack.onclick = function () {            window.scrollTo(0, 0)        }        // 2.给页面绑定scroll滚动条事件        document.onscroll = function () {            sliderbar.style.top = window.pageYOffset             //获取页面顶部被卷去的距离            if (window.pageYOffset > (header.scrollHeight + banner.scrollHeight + 30)) {                goBack.style.display = 'block'                sliderbar.style.position = 'fixed'                sliderbar.style.top = '0px'            }            else {                                sliderbar.style.position = 'absolute'                sliderbar.style.top = header.scrollHeight + banner.scrollHeight + 30+'px'                goBack.style.display = 'none'            }        }        /* var ws = document.querySelectorAll('.w')        console.log(ws);     */        /*  //1. 获取元素         var sliderbar = document.querySelector('.slider-bar');         var banner = document.querySelector('.banner');         // banner.offestTop 就是被卷去头部的大小 一定要写到滚动的外面         var bannerTop = banner.offsetTop             // 当我们侧边栏固定定位之后应该变化的数值         var sliderbarTop = sliderbar.offsetTop - bannerTop;         // 获取main 主体元素         var main = document.querySelector('.main');         var goBack = document.querySelector('.goBack');         var mainTop = main.offsetTop;         // 2. 页面滚动事件 scroll         document.addEventListener('scroll', function() {             // console.log(11);             // window.pageYOffset 页面被卷去的头部             // console.log(window.pageYOffset);             // 3 .当我们页面被卷去的头部大于等于了 172 此时 侧边栏就要改为固定定位             if (window.pageYOffset >= bannerTop) {                 sliderbar.style.position = 'fixed';                 sliderbar.style.top = sliderbarTop + 'px';             } else {                 sliderbar.style.position = 'absolute';                 sliderbar.style.top = '300px';             }             // 4. 当我们页面滚动到main盒子，就显示 goback模块             if (window.pageYOffset >= mainTop) {                 goBack.style.display = 'block';             } else {                 goBack.style.display = 'none';             }          }) */    </script></body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; co
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/05/20/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/chapter07/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    <id>https://summercat7.github.io/2024/05/20/前端开发技术/chapter07/正则表达式/</id>
+    <published>2024-05-20T06:16:25.523Z</published>
+    <updated>2024-05-20T06:59:47.508Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title></head><body>    <script>        var regexp = RegExp(/123/)        console.log(regexp);        var rg = /123/        console.log(rg);        var reg = /a/gi;// 输出结果：["admin", index: 1, input: "1admin2admin", groups: undefined]console.log('1admin2admin'.match(reg));// 输出结果：nullconsole.log('address'.match(reg));        console.log('best grade'.match(/\bg/));        console.log('best grade'.match(/\bb/));        console.log('best grade'.match(/e\b/));    </script></body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; con
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/05/11/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/chapter07/%E6%B3%A8%E5%86%8C%E4%BA%8B%E4%BB%B6%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F/"/>
+    <id>https://summercat7.github.io/2024/05/11/前端开发技术/chapter07/注册事件两种方式/</id>
+    <published>2024-05-11T07:19:42.523Z</published>
+    <updated>2024-05-11T07:20:54.306Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title></head><body>    <button>传统注册事件</button>    <button>方法监听注册事件</button>    <button>ie9 attachEvent</button>    <script>        var btns = document.querySelectorAll('button');        // 1. 传统方式注册事件        btns[0].onclick = function() {            alert('hi');        }        btns[0].onclick = function() {                alert('hao a u');            }            // 2. 事件侦听注册事件 addEventListener             // (1) 里面的事件类型是字符串 必定加引号 而且不带on            // (2) 同一个元素 同一个事件可以添加多个侦听器（事件处理程序）        btns[1].addEventListener('click', function() {            alert(22);        })        btns[1].addEventListener('click', function() {                alert(33);            })            // 3. attachEvent ie9以前的版本支持        btns[2].attachEvent('onclick', function() {            alert(11);        })    </script></body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; con
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/05/10/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/chapter01/%E7%AE%80%E6%98%93%E7%95%99%E8%A8%80%E6%9D%BF/"/>
+    <id>https://summercat7.github.io/2024/05/10/前端开发技术/chapter01/简易留言板/</id>
+    <published>2024-05-10T06:26:49.343Z</published>
+    <updated>2024-05-10T06:56:03.405Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <meta http-equiv="X-UA-Compatible" content="ie=edge">    <title>Document</title>    <style>        * {            margin: 0;            padding: 0;        }                body {            padding: 100px;        }                textarea {            width: 200px;            height: 100px;            border: 1px solid pink;            outline: none;            resize: none;        }                ul {            margin-top: 50px;        }                li {            width: 300px;            padding: 5px;            background-color: rgb(245, 209, 243);            color: red;            font-size: 14px;            margin: 15px 0;        }                li a {            float: right;        }    </style></head><body>    <textarea name id></textarea>    <button>发布</button>    <ul>  </ul>    <script>      </script></body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; co
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/05/10/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/chapter01/%E5%85%83%E7%B4%A0%E8%8A%82%E7%82%B9%E6%93%8D%E4%BD%9C/"/>
+    <id>https://summercat7.github.io/2024/05/10/前端开发技术/chapter01/元素节点操作/</id>
+    <published>2024-05-10T05:36:23.281Z</published>
+    <updated>2024-05-10T06:16:56.646Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title></head><body>    <button>删除</button>    <button onclick="cloneFunction()">复制</button><ul>    <li>我是文本</li></ul><script>    //1.创建节点    var li = document.createElement('li')    li.innerHTML = '我是新添加的元素节点'    // 2. 添加节点 node.appendChild（child）    var ul = document.querySelector('ul')    ul.appendChild(li)    //3.在指定位置【前面】添加节点 node.insertBefore(child,指定位置)    var li2 = document.createElement('li')    li2.innerHTML = '我是新来的'    ul.insertBefore(li2,ul.children[0])    //4.删除元素 node.removeChild()        var btn = document.querySelector('button')    btn.onclick = function ()    {        if(ul.children.length==0)        {            this.disabled = 'true'        }else        ul.removeChild(ul.children[0])    }   //复制节点    function cloneFunction ()    {         var cloneitem  = ul.children[1].cloneNode(true)        ul.appendChild(cloneitem)    }</script></body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; con
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/05/10/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/chapter01/%E4%B8%8B%E6%8B%89%E8%8F%9C%E5%8D%95/"/>
+    <id>https://summercat7.github.io/2024/05/10/前端开发技术/chapter01/下拉菜单/</id>
+    <published>2024-05-10T05:12:12.365Z</published>
+    <updated>2024-05-10T06:58:24.787Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <meta http-equiv="X-UA-Compatible" content="ie=edge">    <title>Document</title>    <style>        * {            margin: 0;            padding: 0;        }                li {            list-style-type: none;        }                a {            text-decoration: none;            font-size: 14px;        }                .nav {            margin: 100px;        }                .nav>li {            position: relative;            float: left;            width: 80px;            height: 41px;            text-align: center;        }                .nav li a {            display: block;            width: 100%;            height: 100%;            line-height: 41px;            color: #333;        }                .nav>li>a:hover {            background-color: #eee;        }                .nav ul {            display: none;            position: absolute;            top: 41px;            left: 0;            width: 100%;            border-left: 1px solid #FECC5B;            border-right: 1px solid #FECC5B;        }                .nav ul li {            border-bottom: 1px solid #FECC5B;        }                .nav ul li a:hover {            background-color: #FFF5DA;        }    </style></head><body>    <ul class="nav">        <li>            <a href="#">微博</a>            <ul>                <li>                    <a href>私信</a>                </li>                <li>                    <a href>评论</a>                </li>                <li>                    <a href>@我</a>                </li>            </ul>        </li>        <li>            <a href="#">微博</a>            <ul>                <li>                    <a href>私信</a>                </li>                <li>                    <a href>评论</a>                </li>                <li>                    <a href>@我</a>                </li>            </ul>        </li>        <li>            <a href="#">微博</a>            <ul>                <li>                    <a href>私信</a>                </li>                <li>                    <a href>评论</a>                </li>                <li>                    <a href>@我</a>                </li>            </ul>        </li>        <li>            <a href="#">微博</a>            <ul>                <li>                    <a href>私信</a>                </li>                <li>                    <a href>评论</a>                </li>                <li>                    <a href>@我</a>                </li>            </ul>        </li>    </ul>    <script>    </script></body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; co
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/05/06/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/chapter01/node/"/>
+    <id>https://summercat7.github.io/2024/05/06/前端开发技术/chapter01/node/</id>
+    <published>2024-05-06T07:22:22.089Z</published>
+    <updated>2024-05-06T16:27:15.026Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title></head><body>    <div class="box">        <span class="ch">            你好        </span>    </div>    <script>        var  box  = document.querySelector('.box')        console.log(box);/*         var arr=['a',,,,'b','c'];        document.write(arr.length)        var n = 0o32;        document.write(n) */        var arr1 = [1,2,3,4,5,6]         console.log(arr1[3]);        document.write(arr1[3])    </script></body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; con
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/04/29/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/chapter01/%E9%80%89%E9%A1%B9%E5%8D%A1%E5%88%87%E6%8D%A2/"/>
+    <id>https://summercat7.github.io/2024/04/29/前端开发技术/chapter01/选项卡切换/</id>
+    <published>2024-04-29T14:04:59.238Z</published>
+    <updated>2024-04-29T16:43:45.743Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title>    <link rel="stylesheet" href="tab.css"></head><body>    <div class="tab">        <div class="tab_list">            <ul>                <li class="current">商品介绍</li>                <li>规格与包装</li>                <li>售后保障</li>                <li>商品评价</li>                <li>售后保障</li>                <li>手机社区</li>            </ul>        </div>        <div class="tab_con">            <div class="item" style="display: block;">内容1</div>            <div class="item">内容2</div>            <div class="item">内容3</div>            <div class="item">内容4</div>            <div class="item">内容5</div>            <div class="item">内容6</div>        </div>    </div></body><script>    var lis = document.querySelectorAll('li')    var items = document.querySelectorAll('.item')    console.log(lis);    for (var i = 0; i < lis.length; i++) {        lis[i].setAttribute('index', i);        lis[i].onclick = function () {            for (var i = 0; i < lis.length; i++) {                //清空所有类名                lis[i].className = '';            }            // 留下我自己            this.className = 'current'            var index = this.getAttribute('index')            console.log(index);            for (var i = 0; i < items.length; i++)            {                if(items[i]!== items[index])                {                    items[i].style.display='none'                }                else                {                    items[index].style.display='block'                }            }            }    }</script></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; co
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/04/27/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/chapter01/%E9%9A%90%E8%97%8F%E5%AF%86%E7%A0%81%E6%98%8E%E6%96%87/"/>
+    <id>https://summercat7.github.io/2024/04/27/前端开发技术/chapter01/隐藏密码明文/</id>
+    <published>2024-04-27T01:55:49.926Z</published>
+    <updated>2024-04-27T01:58:36.500Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title></head><body>    </body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; con
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/04/26/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/chapter01/%E6%93%8D%E4%BD%9C%E5%B1%9E%E6%80%A7%E5%85%83%E7%B4%A0/"/>
+    <id>https://summercat7.github.io/2024/04/26/前端开发技术/chapter01/操作属性元素/</id>
+    <published>2024-04-26T07:02:59.357Z</published>
+    <updated>2024-04-26T07:29:12.449Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title></head><body>    <button id="flowers">鲜花</button>    <button id="grass">四叶草</button>    <br>    <img src="images/flower.png" alt title="四叶草"></body><script></script></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; co
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://summercat7.github.io/2024/04/22/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/chapter01/dom/"/>
+    <id>https://summercat7.github.io/2024/04/22/前端开发技术/chapter01/dom/</id>
+    <published>2024-04-22T06:24:51.335Z</published>
+    <updated>2024-04-26T07:06:34.711Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title></head><body>    <div id="time"> 2024-4-22 </div>    <ul>        <li>等一个晴天1</li>        <li>等一个晴天2</li>        <li>等一个晴天3</li>        <li>等一个晴天4</li>    </ul>    <ul id="nav">        <li>等一个晴天1</li>        <li>等一个晴天2</li>        <li>等一个晴天3</li>        <li>等一个晴天4</li>    </ul>    <script>/*        var timer =  document.getElementById('time')       console.log(timer);       console.log(typeof timer);       console.dir(timer) *//*        var lis = document.getElementsByTagName('li')       console.log(lis); */       var  nav= document.getElementById('nav');       var navlis = nav.getElementsByTagName("li");       console.log(navlis);           </script></body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; con
+      
+    
+    </summary>
+    
     
   </entry>
   
